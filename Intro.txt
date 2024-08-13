@@ -1,0 +1,19 @@
+The key function to handling file using python is open()
+
+
+There are four methods of opening a file 
+
+"r" - Read - Opens a file for reading,error if the file doesn't exist.
+"a" -Append - Opens a file for appending. Creates a file if it doesn't exist.
+"W" -Write - Opens a file for writing, creates a file if it doesn't exist.
+"x" - Create - Create the specified file, returnd an error if file exists.
+
+There are other modes of opening the files
+
+"b" - Binary mode(e.g images)
+
+"t" - Text - Default value. Text mode
+
+Open a file
+#f = open("demo.txt")
+
